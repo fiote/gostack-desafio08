@@ -13,13 +13,14 @@ export const ProductContainer = styled.View`
   flex-direction: row;
 `;
 
-export const ProductList = styled(FlatList)`
+export const ProductList = styled.View`
   flex: 1;
   padding: 0 10px;
 `;
 
 export const Product = styled.View`
   background: #fff;
+  max-height: 120px;
   padding: 15px 10px;
   border-radius: 5px;
   margin: 5px;
